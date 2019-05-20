@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="656.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="losslesscompressionalgorithms.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button layoutX="51.0" layoutY="68.0" mnemonicParsing="false" onAction="#btnNew" prefHeight="35.0" prefWidth="136.0" text="new" />
+      <ImageView fx:id="imageView" fitHeight="437.0" fitWidth="600.0" layoutX="51.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="247.0" layoutY="70.0" mnemonicParsing="false" onAction="#btnCompress" prefHeight="35.0" prefWidth="136.0" text="RLE and save" />
+      <Button layoutX="429.0" layoutY="72.0" mnemonicParsing="false" onAction="#btndecompress" prefHeight="35.0" prefWidth="136.0" text="decompress" />
+    </children>
+</AnchorPane>
